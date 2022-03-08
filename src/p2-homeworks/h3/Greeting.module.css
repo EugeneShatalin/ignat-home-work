@@ -1,7 +1,17 @@
 .someClass {
-
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin: 0 auto;
+    height: 100px;
+    justify-content: space-between;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.not_error {
+    border: 1px solid green;
 }
